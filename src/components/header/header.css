@@ -1,0 +1,28 @@
+.header {
+  width: 1440px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  position: fixed;
+}
+.header-navbar {
+  width: 1280px;
+  margin: 0 auto;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
